@@ -12,5 +12,13 @@ You are tasked with providing basic functionality for validation, to help editor
 - At least one number is checked for being a number (e.g.: double, int)
 - Editors get clear visual feedback on errors and/or restrictions in the user interface or as data in the response of their request when performing operations.
 
+## User Story 2
+*As an EDITOR for application data, I want to ensure that a certain field only accepts values where each letter occurs 2 times. (e.g.: AB is invalid, AABB is valid)*
+
+### Acceptance Criteria
+- A custom validator has been implemented
+- The custom validator is used to check a field of choice on the server side
+- Editors get clear visual feedback on errors and/or restrictions in the user interface or as data in the response of their request when performing operations.
+
 #### Links
 https://my.skilldisplay.eu/en/skillset/122
